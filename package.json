@@ -1,0 +1,16 @@
+{
+  "name": "serverclock",
+  "version": "1.0.0",
+  "description": "Server-synced clock for stream synchronization",
+  "license": "MIT",
+  "author": "Skye Doto",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
