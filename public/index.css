@@ -11,16 +11,19 @@
 * {margin: 0; padding:0;}
 
 .datestamp {
+    margin-top: 3px;
     text-align: center;
 }
 
 .visualtimestamp {
     font-family: 'e13b', sans-serif;
     display: inline;
+    font-size: 20px;
 }
 .qrstamp {
     display: inline-block;
 }
 .bitwisetimestamp {
     font-family: 'GoogleSansCode', monospace;
+    font-size: 18px;
 }

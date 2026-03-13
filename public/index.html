@@ -10,9 +10,9 @@
 
 <body>
     <div class="datestamp">
+        <div class="qrstamp" id="qr2"></div>
         <div id="stamp" class="visualtimestamp"></div>
         <!-- <div id="difference"></div> -->
-        <div class="qrstamp" id="qr2"></div>
         <div class="bitwisetimestamp" id="bits"></div>
         <!-- <div class="qrstamp" id="qr"></div> -->
     </div>
@@ -61,7 +61,7 @@
                 ecLevel: 'L', // L, M, Q, H
                 fill: '#000000', // foreground color
                 background: null, // color or null for transparent
-                size: 32 // in pixels
+                size: 64 // in pixels
             }, document.querySelector('#qr2'));
 
             // ▁ █ ▔
