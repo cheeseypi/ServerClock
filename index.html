@@ -18,6 +18,8 @@
     <script src="/qr-creator"></script>
     <script src="ServerDate.js"></script>
     <script>
+        ServerDate.synchronizationIntervalDelay = 60000;
+
         function updateClocks() {
             var client = new Date();
             let timestamp = ServerDate.getTime();
