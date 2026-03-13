@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'e13b';
+    src: url('/fonts/micr-e13b.ttf');
+}
+
+@font-face {
+    font-family: 'GoogleSansCode';
+    src: url('/fonts/GoogleSansCode-Regular.ttf');
+}
+
+* {margin: 0; padding:0;}
+
+.datestamp {
+    text-align: center;
+}
+
+.visualtimestamp {
+    font-family: 'e13b', sans-serif;
+    display: inline;
+}
+.qrstamp {
+    display: inline-block;
+}
+.bitwisetimestamp {
+    font-family: 'GoogleSansCode', monospace;
+}
